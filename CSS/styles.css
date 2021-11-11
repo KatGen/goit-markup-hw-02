@@ -3,16 +3,18 @@
     --title-text-color: #212121;
     --accent-color: #2196f3;
     --primary-bcg-color: #ffffff;
+    --secondary-bcg-color: #2f303a;
 }
 body { background-color: #fff;
 color: var(--primary-text-color);
 font-family: Roboto, sans-serif;
+letter-spacing: 0.03em;
 }
 .logo {color: var(--title-text-color);
 font-family: Raleway, sans-serif;
 font-size: 26px;
 line-height: 1.19;
-letter-spacing: 0.03em;
+text-decoration: none;
 }
 span {color: var(--accent-color);
 font-family: Raleway, sans-serif;
@@ -26,12 +28,15 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+text-decoration: none;
 }
 .site-nav a:hover, .site-nav a:focus {color: var(--accent-color);}
 .site-nav .link.current {color: var(--accent-color);}
-.hero {background-color: #2f303a;
+.auth-nav a:hover, .auth-nav a:focus {color: var(--accent-color);}
+.aut-navh {}
+.hero {background-color: var(--secondary-bcg-color);
 }
-.hero-title {color: #ffffff;
+.hero-title {color: var(--primary-bcg-color);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -52,6 +57,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
+text-decoration: none;
 }
 .button :hover, .button :focus {color: var(--accent-color);}
 .button.primary {background-color: var(--accent-color); color: var(--primary-bcg-color);
@@ -63,4 +69,42 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 }
-.section-description h3:
+.section-feature h3 {
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.section-feature p {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+.section-cards h3 {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;   
+}
+.section-cards p {
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.footer-contacts {background-color: var(--secondary-bcg-color);}
+.footer-contacts-link a {color: var(--primary-bcg-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 00.03em;
+    text-decoration: none;
+}
+.footer-logo {color: var(--primary-bcg-color);
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;}
