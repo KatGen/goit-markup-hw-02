@@ -111,7 +111,6 @@ letter-spacing: 0.06em;}
    }
 .footer-contacts {background-color: var(--secondary-bcg-color);}
 .footer-address {color: var(--primary-white-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
